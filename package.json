@@ -1,0 +1,32 @@
+{
+  "name": "cleff",
+  "version": "0.0.1",
+  "description": "Simple useEffect for class React components",
+  "source": "index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "unpkg": "./dist/index.umd.js",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.js"
+  },
+  "scripts": {
+    "build": "microbundle"
+  },
+  "keywords": [
+    "react",
+    "effect",
+    "effects",
+    "useeffect",
+    "class",
+    "component"
+  ],
+  "author": "Eugene Daragan",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/react": "^16.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
