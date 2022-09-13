@@ -1,6 +1,6 @@
 {
   "name": "cleff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple useEffect for class React components",
   "source": "index.ts",
   "main": "./dist/index.js",
@@ -28,5 +28,9 @@
   },
   "devDependencies": {
     "microbundle": "^0.15.1"
+  },
+  "repository": {
+    "url": "git+https://github.com/zheksoon/cleff.git",
+    "type": "git"
   }
 }
