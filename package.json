@@ -1,17 +1,17 @@
 {
   "name": "cleff",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple useEffect for class React components",
-  "source": "index.ts",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "unpkg": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     "require": "./dist/index.js",
     "default": "./dist/index.modern.js"
   },
   "scripts": {
-    "build": "microbundle"
+    "build": "microbundle index.ts"
   },
   "keywords": [
     "react",
